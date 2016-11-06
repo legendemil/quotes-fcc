@@ -1,3 +1,7 @@
+:root {
+  font-size: 62.5%;
+}
+
 * {
   font-family: 'Shadows Into Light', cursive;
 }
@@ -5,4 +9,36 @@
 body {
   background-image: url("../img/img.jpg");
   background-size: cover;
+  background-attachment: fixed;
+}
+
+.wrapper {
+  max-width: 90%;
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.page-header {
+  text-align: center;
+  font-size: 9rem;
+}
+
+.quote {
+  width: 500px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+.quote__text {
+  margin: 0;
+  padding: 5rem 4rem;
+  background-color: #FFFFFF;
+  font-size: 5rem;
+}
+
+.quote__author {
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  display: inline-block;
+  background-color: #FFFFFF;
 }
